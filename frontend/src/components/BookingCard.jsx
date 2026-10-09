@@ -14,6 +14,9 @@ function BookingCard({ booking, refresh }) {
 
     try {
 
+
+      
+
       await cancelBooking(booking._id);
 
       alert("Booking cancelled");
